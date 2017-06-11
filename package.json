@@ -4,7 +4,7 @@
   "description": "Eliminates any file or directory within her sights.",
   "private": true,
   "bin": {
-    "widowmaker": ".lib/cli.js"
+    "widowmaker": "./lib/cli.js"
   },
   "scripts": {
     "setup": "ts-node ./scripts/setup",
