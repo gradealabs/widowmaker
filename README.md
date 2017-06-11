@@ -47,7 +47,7 @@ Or in a `package.json` (installed locally):
 
 **widowmaker(...files)**
 
-Delete any file or directory. Can accept an strings or array of strings.
+Delete any file or directory. Can accept variadic strings or array of strings.
 
 Example:
 
