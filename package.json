@@ -12,7 +12,7 @@
     "test": "cross-env NODE_ENV=test TS_NODE_PROJECT=./tsconfig.test.json nyc mocha",
     "build": "npm run build:node",
     "build:node": "tsc -p tsconfig.node.json",
-    "clean": "ts-node ./scripts/clean/cli lib coverage"
+    "clean": "ts-node ./src/cli lib coverage"
   },
   "keywords": [],
   "author": "Darren Schnare <schnare.d@gmail.com>",
