@@ -1,11 +1,12 @@
 {
   "name": "@gradealabs/widowmaker",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Eliminates any file or directory within her sights.",
   "private": true,
   "bin": {
     "widowmaker": "./lib/cli.js"
   },
+  "main": "./lib/index.js",
   "scripts": {
     "setup": "ts-node ./scripts/setup",
     "audit": "npm outdated --long",
