@@ -4,7 +4,7 @@ Eliminates any file or directory within her sights.
 
 ## Quick Start
 
-    npm install gradealabs/widowmaker -S
+    npm install @gradealabs/widowmaker -S
 
 To use the API:
 
