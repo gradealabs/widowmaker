@@ -1,8 +1,7 @@
 {
   "name": "@gradealabs/widowmaker",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Eliminates any file or directory within her sights.",
-  "private": true,
   "bin": {
     "widowmaker": "./lib/cli.js"
   },
@@ -17,11 +16,19 @@
   },
   "keywords": [],
   "author": "Darren Schnare <schnare.d@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gradealabs/widowmaker"
+  },
+  "bugs": {
+    "url": "https://github.com/gradealabs/widowmaker/issues"
+  },
   "license": "MIT",
   "files": [
     "lib"
   ],
   "devDependencies": {
+    "@gradealabs/fs-utils": "2.0.2",
     "@types/mocha": "2.2.41",
     "@types/node": "7.0.29",
     "@types/sinon": "2.3.1",
@@ -46,7 +53,6 @@
     "typescript": "2.3.4"
   },
   "dependencies": {
-    "@gradealabs/fs-utils": "github:gradealabs/fs-utils",
     "yargs": "8.0.1"
   },
   "engines": {
