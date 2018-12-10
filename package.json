@@ -28,7 +28,7 @@
     "lib"
   ],
   "devDependencies": {
-    "@gradealabs/fs-utils": "github:gradealabs/fs-utils#2.0.31",
+    "@gradealabs/fs-utils": "github:gradealabs/fs-utils#2.2.51",
     "@types/mocha": "2.2.41",
     "@types/node": "7.0.29",
     "@types/sinon": "2.3.1",
