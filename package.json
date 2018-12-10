@@ -28,7 +28,7 @@
     "lib"
   ],
   "devDependencies": {
-    "@gradealabs/fs-utils": "2.0.2",
+    "@gradealabs/fs-utils": "github:gradealabs/fs-utils#2.0.31",
     "@types/mocha": "2.2.41",
     "@types/node": "7.0.29",
     "@types/sinon": "2.3.1",
@@ -56,7 +56,7 @@
     "yargs": "8.0.1"
   },
   "engines": {
-    "node": "6.x",
-    "npm": "3.x"
+    "node": ">=6.x",
+    "npm": ">=3.x"
   }
 }
