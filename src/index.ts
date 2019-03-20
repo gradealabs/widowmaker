@@ -1,5 +1,5 @@
 import * as fs from 'fs'
-import { rmdir } from '@gradealabs/fs-utils'
+import { rmdir } from '@launchfort/fs-utils'
 
 /**
  * Delete files and directories.

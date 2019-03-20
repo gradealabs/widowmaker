@@ -1,7 +1,7 @@
 import * as assert from 'assert'
 import * as fs from 'fs'
 import * as path from 'path'
-import { mkdir, rmdir, touch } from '@gradealabs/fs-utils'
+import { mkdir, rmdir, touch } from '@launchfort/fs-utils'
 import widowmaker from './index'
 
 const tree = [

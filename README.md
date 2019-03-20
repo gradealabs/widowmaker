@@ -4,11 +4,11 @@ Eliminates any file or directory within her sights.
 
 ## Quick Start
 
-    npm install @gradealabs/widowmaker -S
+    npm install @launchfort/widowmaker -S
 
 To use the API:
 
-    import widowmaker from '@gradealabs/widowmaker'
+    import widowmaker from '@launchfort/widowmaker'
 
     widowmaker('somefile.jpg', 'dest')
       .then(() => console.log('draw them into my web!'))
@@ -51,7 +51,7 @@ Delete any file or directory. Can accept variadic strings or array of strings.
 
 Example:
 
-    import widowmaker from '@gradealabs/widowmaker'
+    import widowmaker from '@launchfort/widowmaker'
 
     widowmaker('file.js', [ 'dest', 'otherfile.jpg' ], 'file.ts')
       .then(() => console.log('draw them into my web'))

@@ -5,6 +5,7 @@
     "target": "es2015",
     "module": "commonjs",
     "moduleResolution": "node",
+    "outDir": "lib",
     "newLine": "LF",
     "lib": [
       "es2016",
